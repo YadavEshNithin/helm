@@ -8,7 +8,7 @@ spec:
   replicas: {{ .Values.deployment.replicas }}
   selector:
     matchLabels:
-      purpose: nginx-demo-deployment
+      purpose: service-lb-demo
       project: roboshop
       environment: dev
   template:
